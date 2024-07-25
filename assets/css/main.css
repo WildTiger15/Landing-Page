@@ -2265,6 +2265,8 @@ input, select, textarea {
 
 /* Icon */
 
+  
+
 	.icon {
 		text-decoration: none;
 		border-bottom: none;
@@ -2579,6 +2581,30 @@ input, select, textarea {
 			}
 
 /* Major Icons */
+.vertical-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the left */
+    justify-content: center;
+    height: 100vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute; /* Position icons absolutely */
+    left: 20%; /* Adjust this value to move icons left or right */
+	top: 2300px;
+}
+
+.vertical-icons li {
+    margin-bottom: 3.5em; /* Adjust spacing between icons as needed */
+}
+
+.icon-logo {
+    width: 140px; /* Set a consistent width */
+    height: 140px; /* Set a consistent height */
+    object-fit: contain; /* Ensure the image fits within the set dimensions without distortion */
+}
+
 
 	ul.major-icons {
 		list-style: none;
