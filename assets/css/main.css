@@ -3570,19 +3570,8 @@ input, select, textarea {
 		text-align: center;
 		height: 100%; /* Adjust height as needed, or remove if not necessary */
 	}
-	.experience_section {
-		display: flex;           /* Establishes a flex container */
-		flex-direction: column;  /* Stacks children vertically */
-		align-items: center;     /* Centers children horizontally in the flex container */
-		text-align: center;      /* Centers the text within children */
-		width: 100%;             /* Ensures the div takes full width of its container */
-		padding: 20px;           /* Optional: Adds space inside the div */
-	}
 	
-	.experience_header {
-		padding: 20vw;  /* Starts with a viewport-relative padding */
-		text-align: center;  /* Ensures text is centered within the header */
-	}
+	
 	
 	
 
