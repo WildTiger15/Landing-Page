@@ -1,5 +1,11 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+@media (max-width: 768px) {
+	.icon-logo {
+	  display: none;
+	}
+  }
+  
 
 /*
 	Photon by HTML5 UP
@@ -2594,6 +2600,7 @@ input, select, textarea {
     left: 20%; /* Adjust this value to move icons left or right */
 	top: 2300px;
 }
+
 
 .vertical-icons li {
     margin-bottom: 3.5em; /* Adjust spacing between icons as needed */
